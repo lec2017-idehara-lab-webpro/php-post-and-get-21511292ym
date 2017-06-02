@@ -22,6 +22,7 @@
   			echo "<br>";
   		}
   		}
+      print("こんにちは $v さん")
 
 //var_dump($_POST);
 
