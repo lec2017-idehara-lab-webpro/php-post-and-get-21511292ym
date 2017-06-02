@@ -5,12 +5,12 @@
     <title></title>
   </head>
   <body>
-
-    <form action='hello.php' method='get'>
-      <input type='text' name='id'>
-      <input type='text' name='name'>
-      <input type='submit'>
+<table>
+    <form action='hello.php' method='POST'>
+      <TR><TH>ID</TH><TD><input type='text' name='id'></TD></TR>
+      <TR><TH>名前</TH><TD> <input type='text' name='name'></TD></TR>
+        </table>
+      <input type="submit" VALUE="このボタンを押して送信">
     </form>
-
   </body>
 </html>
